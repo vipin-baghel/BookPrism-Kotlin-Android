@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Add Book" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile"
+            />
+
+        <item
+            android:id="@+id/nav_borrow"
+            android:icon="@drawable/ic_get_app_black_24dp"
+            android:title="Borrow Books" />
+
+        <item
+            android:id="@+id/nav_borrowed"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="Borrowed Books"
+            />
+
+        <item
+            android:id="@+id/nav_lent"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="Lent Books"
+            />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="About Us"
+            />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bookprism.bookprism.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_add"
+        android:name="com.bookprism.bookprism.ui.home.AddBookActivity"
+        tools:layout="@layout/activity_add_book" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.bookprism.bookprism.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_borrow"
+        android:name="com.bookprism.bookprism.ui.borrow.BorrowBookFragment"
+        android:label="Borrow Books"
+        tools:layout="@layout/fragment_borrow_book" />
+
+    <fragment
+        android:id="@+id/nav_borrowed"
+        android:name="com.bookprism.bookprism.ui.borrowed.BorrowedFragment"
+        android:label="Books You Borrowed"
+        tools:layout="@layout/fragment_borrowed" />
+
+    <fragment
+        android:id="@+id/nav_lent"
+        android:name="com.bookprism.bookprism.ui.lent.LentFragment"
+        android:label="Books you Lent"
+        tools:layout="@layout/fragment_lent" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.bookprism.bookprism.ui.aboutus.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+
+</navigation>
